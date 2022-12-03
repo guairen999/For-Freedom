@@ -5,10 +5,10 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 台湾, server: dc4.tw.flow.host, port: 110, type: http, username:guairen99@hotmail.com  , password:loathed!pencils9love , tls: true}
-  - {name: 新加坡, server: dc1.sg.flow.host, port: 110, type: http, username:guairen99@hotmail.com  , password:loathed!pencils9love , tls: true}
-  - {name: 新加坡2, server: sg.flow.host, port: 110, type: http, username:guairen99@hotmail.com  , password:loathed!pencils9love , tls: true}
-  - {name: 台湾2, server: dc1.tw.flow.host, port: 110, type: http, username:guairen99@hotmail.com  , password:loathed!pencils9love , tls: true}
+  - {name: 台湾, server: dc1.tw.flow.host, port: 110, type: http, username:guairen99@hotmail.com  , password:loathed!pencils9love , tls: true}
+  - {name: 新加坡, server: sg.flow.host, port: 110, type: http, username:guairen99@hotmail.com  , password:loathed!pencils9love , tls: true}
+  - {name: 新加坡2, server: sg.us.flow.host, port: 110, type: http, username:guairen99@hotmail.com  , password:loathed!pencils9love , tls: true}
+  - {name: 台湾2, server: dc3.tw.flow.host, port: 110, type: http, username:guairen99@hotmail.com  , password:loathed!pencils9love , tls: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
